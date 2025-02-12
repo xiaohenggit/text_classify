@@ -8,7 +8,7 @@ It contains 25,000 training samples and 25,000 test samples. After downloading a
 
 # embedding Pre-training loading
 After the model is built, the embedding layer of the word vector is randomly initialized. It is time-consuming and laborious to train a word vector representation with a certain logical relationship from scratch. Usually, a word vector matrix trained on a large scale can be used.
-Here you can refer to Stanford University's GloVe (Global Vectors for Word Representation) pre-trained word vector.
+Here you can refer to Stanford University's GloVe（Global Vectors for Word Representation） pre-trained word vector. (https://nlp.stanford.edu/projects/glove/)
 GloVe is an unsupervised learning algorithm used to obtain the vector representation of words. GloVe pre-trained word vectors can effectively capture the semantic relationship between words and are widely used in various tasks in the field of natural language processing, such as text classification, named entity recognition, and machine translation.
 
 There are four types of Gloves, which are differentiated according to the amount of data and the same data according to the length of the vector.
