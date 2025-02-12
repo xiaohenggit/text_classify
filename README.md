@@ -3,7 +3,9 @@ Use RNN and LSTM to implement text classification on the movie review dataset.
 
 # Dataset
 Stanford University Large Movie Review Dataset（large movie review dataset） https://ai.stanford.edu/~amaas/data/sentiment/
+
 It contains 25,000 training samples and 25,000 test samples. After downloading and decompressing, you will get the aclImdb folder. There are train and test under aclImdb, and txt files under neg and pos respectively. The txt files contain movie review texts.
+
 (Put the aclImdb folder in the project folder)
 
 # embedding Pre-training loading
